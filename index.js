@@ -1,5 +1,7 @@
 const pg = require('pg')
 
+console.log("Teste");
+
 const db = new pg.Client({
     database: 'node_postgres_db',
     password: '',
